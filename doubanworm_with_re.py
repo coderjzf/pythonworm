@@ -50,7 +50,7 @@ def write_to_file(item):
     with open("douban250.txt", "a", encoding="utf-8") as file:
         file.write(str(item) + "\n")
 
-
+# 主方法
 def main():
     for i in range(10):
         start = i * 25
